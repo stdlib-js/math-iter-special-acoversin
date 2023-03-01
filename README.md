@@ -158,11 +158,11 @@ while ( true ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math/base/special/acoversin`][@stdlib/math/base/special/acoversin]</span><span class="delimiter">: </span><span class="description">compute the inverse coversed sine.</span>
--   <span class="package-name">[`@stdlib/math/iter/special/acovercos`][@stdlib/math/iter/special/acovercos]</span><span class="delimiter">: </span><span class="description">create an iterator which computes the inverse coversed cosine of each iterated value.</span>
--   <span class="package-name">[`@stdlib/math/iter/special/aversin`][@stdlib/math/iter/special/aversin]</span><span class="delimiter">: </span><span class="description">create an iterator which computes the inverse versed sine of each iterated value.</span>
--   <span class="package-name">[`@stdlib/math/iter/special/coversin`][@stdlib/math/iter/special/coversin]</span><span class="delimiter">: </span><span class="description">create an iterator which computes the coversed sine for each iterated value.</span>
--   <span class="package-name">[`@stdlib/math/iter/special/versin`][@stdlib/math/iter/special/versin]</span><span class="delimiter">: </span><span class="description">create an iterator which computes the versed sine for each iterated value.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/acoversin`][@stdlib/math/base/special/acoversin]</span><span class="delimiter">: </span><span class="description">compute the inverse coversed sine.</span>
+-   <span class="package-name">[`@stdlib/math-iter/special/acovercos`][@stdlib/math/iter/special/acovercos]</span><span class="delimiter">: </span><span class="description">create an iterator which computes the inverse coversed cosine of each iterated value.</span>
+-   <span class="package-name">[`@stdlib/math-iter/special/aversin`][@stdlib/math/iter/special/aversin]</span><span class="delimiter">: </span><span class="description">create an iterator which computes the inverse versed sine of each iterated value.</span>
+-   <span class="package-name">[`@stdlib/math-iter/special/coversin`][@stdlib/math/iter/special/coversin]</span><span class="delimiter">: </span><span class="description">create an iterator which computes the coversed sine for each iterated value.</span>
+-   <span class="package-name">[`@stdlib/math-iter/special/versin`][@stdlib/math/iter/special/versin]</span><span class="delimiter">: </span><span class="description">create an iterator which computes the versed sine for each iterated value.</span>
 
 </section>
 
