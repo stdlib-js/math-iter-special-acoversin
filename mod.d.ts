@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2020 The Stdlib Authors.
@@ -16,15 +16,14 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var iterMap = require( '@stdlib/math-iter-tools-map' );
-var acoversin = require( '@stdlib/math-base-special-acoversin' );
+import { Iterator as Iter, IterableIterator } from '@stdlib/types/iter';
 
-
-// MAIN //
+// Define a union type representing both iterable and non-iterable iterators:
+type Iterator = Iter | IterableIterator;
 
 /**
 * Returns an iterator which iteratively computes the inverse coversed sine.
@@ -34,12 +33,11 @@ var acoversin = require( '@stdlib/math-base-special-acoversin' );
 * -   The domain of inverse coversed sine is restricted to `[0,2]`. If an iterated value is outside of the domain, the returned iterator returns `NaN`.
 * -   If an environment supports `Symbol.iterator` **and** a provided iterator is iterable, the returned iterator is iterable.
 *
-* @param {Iterator} iterator - input iterator
-* @throws {TypeError} must provide an iterator protocol-compliant object
-* @returns {Iterator} iterator
+* @param iterator - input iterator
+* @returns iterator
 *
 * @example
-* var uniform = require( '@stdlib/random-iter-uniform' );
+* var uniform = require( `@stdlib/random/iter/uniform` );
 *
 * var iter = iterAcoversin( uniform( 0.0, 2.0 ) );
 *
@@ -54,11 +52,9 @@ var acoversin = require( '@stdlib/math-base-special-acoversin' );
 *
 * // ...
 */
-function iterAcoversin( iterator ) {
-	return iterMap( iterator, acoversin );
-}
+declare function iterAcoversin( iterator: Iterator ): Iterator;
 
 
 // EXPORTS //
 
-module.exports = iterAcoversin;
+export = iterAcoversin;
